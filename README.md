@@ -1,7 +1,6 @@
 # Teeth-Disease-Classification-Using-Transfer-Learning-with-ResNet50
 
-## A transfer learning model using a pretrained ResNet50 (ImageNet weights), fine-tuned and deployed an an interactive
-## Streamlit Web Application
+## A transfer learning model using a pretrained ResNet50 (ImageNet weights), fine-tuned and deployed an an interactive Streamlit Web Application
 
 
 ## Overview
