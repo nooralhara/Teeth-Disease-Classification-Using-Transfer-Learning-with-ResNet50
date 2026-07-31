@@ -47,10 +47,3 @@ if uploaded_file is not None:
 
     st.subheader("Prediction")
     st.success(f"**{predicted_class}** ({confidence:.1f}% confidence)")
-
-    st.subheader("Full Probability Breakdown")
-    
-    sorted_indices = np.argsort(predictions)[::-1]
-    for idx in sorted_indices:
-        st.write(f"{class_names[idx]}: {predictions[idx] * 100:.2f}%")
-        st.progress(float(predictions[idx]))
