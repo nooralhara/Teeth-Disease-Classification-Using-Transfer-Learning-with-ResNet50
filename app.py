@@ -19,7 +19,7 @@ def load_model():
 
 model, class_names = load_model()
 
-st.title("🦷 Teeth Disease Classifier")
+st.title("Teeth Disease Classifier")
 st.write(
     "Upload an image of an oral/dental condition, and the model "
     "will predict the "
